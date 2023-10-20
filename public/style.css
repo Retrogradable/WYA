@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 93%;
+    width: 70%;
+    min-width: 200px;
+    min-height: 350px;
+    margin: 0 auto 0 auto;
+    padding-bottom: 4rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px#ccc;
+    overflow: hidden;
+}
+
+#map {
+    height: 80%;
+    width: 100%;
+}
+
+.geoInfo__list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    padding: 2rem 3rem
+}
+
+.geoInfo__list > li {
+    max-width: max-content;
+    min-width: min-content;
+    margin-bottom: 1.15rem;
+}
+
+.geoInfo__button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 2.5%;
+}
+
+.geoInfo__button:hover {
+    cursor: pointer;
+}
